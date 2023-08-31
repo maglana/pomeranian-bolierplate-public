@@ -40,3 +40,4 @@ yarn-error.log*
 /cypress/screenshots
 /cypress/videos
 /cypress/report
+/src/App/Exercises/ReactExercises/FirebaseLoginForm/firebase.js
