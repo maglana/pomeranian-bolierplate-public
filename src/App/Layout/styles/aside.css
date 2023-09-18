@@ -5,15 +5,23 @@ aside {
   flex-direction: column;
   justify-content: space-between;
   overflow-y: auto;
+  width: 200px;
+height: 700px;
+
+
+  
 }
 
 aside ul {
   /* Nadpisanie domyślnych styli przeglądarki */
   padding-inline-start: 1rem;
+  list-style: none;
+  
 }
 
 aside li {
   line-height: 2rem;
+  
 
 }
 
@@ -21,11 +29,17 @@ aside li {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 16px;
+  width:128px;
+height: 27px;
+
+
 }
 
 aside li a {
   display: block;
   padding: 0.5rem;
+  
 }
 
 

@@ -2,50 +2,71 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 1px solid rgba(255, 77, 105, 1);
+    border: 0.66px solid  #C8CBD1;
     border-radius: 8px;
     padding: 20px 28px;
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    
-    /*width: 43px;
-    /* height: 43px; */
-    
+    width: 202px;
+    height: 192px;
     }
     div.dashboard-card-wrapper:hover{
-      transform:scale(1.1);
-      -webkit-box-shadow: 2px -1px 11px -3px rgba(255, 77, 105, 1);
-      -moz-box-shadow: 2px -1px 11px -3px rgba(255, 77, 105, 1);
-      box-shadow: 2px -1px 11px -3px rgba(255, 77, 105, 1);
-      
-      
-      
+    transform:scale(1.1);
+    -webkit-box-shadow: 2px -1px 11px -3px rgba(255, 77, 105, 1);
+    -moz-box-shadow: 2px -1px 11px -3px rgba(255, 77, 105, 1);
+    box-shadow: 2px -1px 11px -3px rgba(255, 77, 105, 1);
     }
-   
-  .dashboard-card-title {
+    .dashboard-card-title {
     font-size: 18px;
     line-height: 34px;
     text-align: center;
-    
-  
+    gap: 10px;
+    color: #FE3756;
+    font-family: Poppins;
+    font-weight: 400;
+    width: 146px;
+    height: 27px;
+    margin: 0;
   }
-  
+  .dashboard-card-logo {
+    width: 43px;
+    height: 43px;
+    text-align: center;
+  }
   
   .dashboard-card-description {
     font-size: 12px;
     line-height: 20px;
+    font-weight: 400;
     text-align: center;
-  
-  }
-  
-   
+    font-family: Poppins;
+    width: 146px;
+    height: 37px;
+    margin: 0;
+    
+    }
   .dashboard-card-navlink {
     font-size: 14px;
     line-height: 24px;
     color: rgba(255, 77, 105, 1);
-    font-weight:bold;
+    font-weight: 700;
     width: 146px;
-height: 21px;
+    height: 21px;
+    text-align: center;
+   
+    
   
   }
 
+.dashboard-personal-info {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: rgba(200, 203, 209, 1);
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}

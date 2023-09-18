@@ -52,7 +52,13 @@ export const Dashboard = () => {
           );
         })}
       </div>
-      <div className="dashboard-personal-info">Personal info</div>
+      <div className="dashboard-personal-info">
+        <src />
+
+        <p>Magdalena Gadomska</p>
+        <p>Toruń</p>
+        <p>e-mail: m.srutkowska@gmail.com</p>
+      </div>
     </div>
   );
 };

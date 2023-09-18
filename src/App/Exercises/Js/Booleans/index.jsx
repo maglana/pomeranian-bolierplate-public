@@ -1,3 +1,4 @@
+import { GolfCourseRounded } from '@mui/icons-material';
 import './styles.css';
 
 // Boolean
@@ -88,6 +89,45 @@ export function Exercise() {
   // 14. =, +=, -= i inne Operatory przypisania.
 
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
+
+  /// zad XXXXX
+
+  const numbers = [5, 8, 10, 23, 48];
+  for (const number of numbers) {
+    console.log(number / 5);
+    if (number % 2 === 0) {
+      console.log(
+        `%cLiczba ${number}jest parzysta`,
+        'background-color: gold; color: black'
+      );
+    } else {
+      console.log(
+        `%cLiczba ${number} nie jest parzysta`,
+        'background-color: blue; color: white'
+      );
+    }
+  }
+  //////////
+  let celsius;
+  let temp;
+
+  const fahrenheit = (m) => {
+    celsius = m;
+    temp = m * 1.8 + 32;
+  };
+
+  fahrenheit(20);
+
+  console.log(`${celsius}C = ${temp}F`);
+
+  //
+  let num = 10;
+  let numbers9 = [];
+
+  for (let i = 0; i < num; i++) {
+    numbers9.push(i);
+  }
+  console.log(numbers9);
 
   return (
     <div>

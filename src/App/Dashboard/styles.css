@@ -3,6 +3,10 @@
     grid-template-columns: 1fr 250px;
     grid-template-rows: repeat(2, 50px) 1fr;
     grid-column-gap: 100px;
+   padding-left: 50px;
+    
+    
+
    
    }
 .dashboard-header {
@@ -19,11 +23,16 @@
     display: flex;
     flex-wrap: wrap;
     gap: 35px;
-  
+    width: 860px;
+    
+    
     }
+
 
 .dashboard-personal-info {
     grid-area: 2 / 2 / 4 / 3;
+    width: 334px;
+height: 360px;
 }
 
    
