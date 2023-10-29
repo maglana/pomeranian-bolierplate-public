@@ -11,7 +11,7 @@ export function AppAside() {
   return (
     <aside>
       <nav>
-        <ul>
+        <ul className="aside-list">
           <li>
             <NavLink to="dashboard">
               <div className="aside-row">

@@ -5,6 +5,8 @@ import { EditIcon } from '../Components/Icons/EditIcon';
 import { ElementIcon } from '../Components/Icons/ElementIcon';
 import { SettingIcon } from '../Components/Icons/SettingIcon';
 import { PersonalCardIcon } from '../Components/Icons/PersonalCardIcon';
+import photo from '../Images/MG_CV.png';
+import { RoundImage } from '../Components/RoundImage/RoundImage';
 
 export const Dashboard = () => {
   const kafelki = [
@@ -52,9 +54,11 @@ export const Dashboard = () => {
           );
         })}
       </div>
-      <div className="dashboard-personal-info">
-        <src />
 
+      <div className="dashboard-personal-info">
+        <div className="Image">
+          <RoundImage src={photo} size="150px" />
+        </div>
         <p>Magdalena Gadomska</p>
         <p>Toruń</p>
         <p>e-mail: m.srutkowska@gmail.com</p>
