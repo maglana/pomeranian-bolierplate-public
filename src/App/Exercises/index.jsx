@@ -29,7 +29,9 @@ export function Exercises() {
 function BlockLayout() {
   return (
     <>
-      <h1>Ćwiczenia</h1>
+      <p>
+        Tutaj znajdziesz wszystkie ćwiczenia, które realizowane były na kursie.
+      </p>
       <div className="exercise-main-container">
         <Categories />
         <Outlet />

@@ -21,9 +21,9 @@ export const Dashboard = () => {
       opis: 'wszystkie wykonane ćwiczenia',
     },
     {
-      title: 'Blog',
+      title: 'Formularz',
       logo: <ElementIcon />,
-      opis: 'wpisy blogowe o technologii front-end',
+      opis: 'formularz zamówień',
     },
     {
       title: 'Tech stack',
