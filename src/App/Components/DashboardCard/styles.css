@@ -8,12 +8,13 @@
   font-family: 'Poppins', sans-serif;
   width: 202px;
   height: 192px;
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.15),
+  0px 2px 28px 0px rgba(0, 0, 0, 0.12);
 }
 div.dashboard-card-wrapper:hover {
   transform: scale(1.1);
-  -webkit-box-shadow: 2px -1px 11px -3px rgba(255, 77, 105, 1);
-  -moz-box-shadow: 2px -1px 11px -3px rgba(255, 77, 105, 1);
-  box-shadow: 2px -1px 11px -3px rgba(255, 77, 105, 1);
+  border: 0.66px solid var(--primary-primary, #fe3756);
+  box-shadow: 0px 2px 26px 0px rgba(254, 55, 86, 0.54);
 }
 .dashboard-header {
   margin-top: 10px;
