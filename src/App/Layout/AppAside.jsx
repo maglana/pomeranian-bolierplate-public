@@ -38,22 +38,6 @@ export function AppAside() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="Calendar">
-              <div className="aside-row">
-                <CalendarIcon />
-                <span>Kalendarz</span>
-              </div>
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="blocks">
-              <div className="aside-row">
-                <ElementIcon />
-                Blocks
-              </div>
-            </NavLink>
-          </li>
-          <li>
             <NavLink to="blog">
               <div className="aside-row">
                 <ElementIcon />
@@ -74,6 +58,30 @@ export function AppAside() {
               <div className="aside-row">
                 <ElementIcon />
                 TechStack
+              </div>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="exercises/js/hit-the-mole">
+              <div className="aside-row">
+                <ElementIcon />
+                Gra | Krecik
+              </div>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="exercises/js/MemoGame">
+              <div className="aside-row">
+                <ElementIcon />
+                Gra | Memo
+              </div>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="exercises/react/Forms2">
+              <div className="aside-row">
+                <ElementIcon />
+                Formularz
               </div>
             </NavLink>
           </li>
