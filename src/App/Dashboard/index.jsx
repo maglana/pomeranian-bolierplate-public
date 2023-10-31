@@ -5,6 +5,8 @@ import { EditIcon } from '../Components/Icons/EditIcon';
 import { ElementIcon } from '../Components/Icons/ElementIcon';
 import { SettingIcon } from '../Components/Icons/SettingIcon';
 import { PersonalCardIcon } from '../Components/Icons/PersonalCardIcon';
+import photo from '../Images/MG_CV.png';
+import { RoundImage } from '../Components/RoundImage/RoundImage';
 
 export const Dashboard = () => {
   const kafelki = [
@@ -17,11 +19,12 @@ export const Dashboard = () => {
       title: 'Ćwiczenia',
       logo: <EditIcon />,
       opis: 'wszystkie wykonane ćwiczenia',
+      
     },
     {
-      title: 'Blog',
+      title: 'Formularz',
       logo: <ElementIcon />,
-      opis: 'wpisy blogowe o technologii front-end',
+      opis: 'formularz zamówień',
     },
     {
       title: 'Tech stack',
@@ -37,7 +40,7 @@ export const Dashboard = () => {
 
   return (
     <div className="dashboard">
-      <h2 className="dashboard-header"> 👋 Hej Magda!</h2>
+      <h2 className="dashboard-header"> 👋 Hej tu Magda!</h2>
       <p className="dashboard-description">
         Poniżej znajdziesz najważniejsze informacje na temat mojej działalności.
       </p>
@@ -48,13 +51,16 @@ export const Dashboard = () => {
               title={kafelek.title}
               logo={kafelek.logo}
               opis={kafelek.opis}
+              
             />
           );
         })}
       </div>
-      <div className="dashboard-personal-info">
-        <src />
 
+      <div className="dashboard-personal-info">
+        <div className="Image">
+          <RoundImage src={photo} size="150px" />
+        </div>
         <p>Magdalena Gadomska</p>
         <p>Toruń</p>
         <p>e-mail: m.srutkowska@gmail.com</p>

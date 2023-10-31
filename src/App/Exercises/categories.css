@@ -1,3 +1,32 @@
 .exercises-categories > * {
   display: list-item;
 }
+.exercises-name > * {
+  display: flex;
+  flex-direction: column;
+  width: 435px;
+  height: 89px;
+  padding: 15px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 7px;
+  border: 0.747px solid var(--primary-primary, black);
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 10px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.exercises-name a.active {
+  border: 0.747px solid var(--primary-primary, #fe3756);
+  color: #fe3756;
+}
+.exercises-name > *:hover {
+  border: 0.747px solid var(--primary-primary, #fe3756);
+  color: #fe3756;
+}
+.goBack{}

@@ -4,9 +4,9 @@ import { HtmlIcon } from '../Components/Icons/HtmlIcon';
 import { GithuubIcons } from '../Components/Icons/GithuubIcons';
 const techStackData = [
   {
-    title: 'HTML',
+    title: 'CSS',
     src: 'https://cdn.icon-icons.com/icons2/2566/PNG/512/css_icon_153522.png',
-    alt: 'HTML logo',
+    alt: 'CSS logo',
   },
 
   {
@@ -16,25 +16,24 @@ const techStackData = [
   },
 
   {
-    title: 'Calendar',
-    component: <CalendarIcon />,
-    alt: 'Calendar logo',
-  },
-
-  {
     title: 'React',
     src: '/Images/react.svg',
     alt: 'React logo',
   },
   {
-    title: 'HtmlIcon',
-    component: <HtmlIcon />,
-    alt: 'HatemlIcon logo',
+    title: 'JS',
+    src: '../Images/js.svg',
+    alt: 'JavaScript logo',
   },
   {
-    title: 'cos',
-    src: '/Images/sygnet96.png',
-    alt: 'cos',
+    title: 'HTML',
+    component: <HtmlIcon />,
+    alt: 'Html logo',
+  },
+  {
+    title: 'TypeScript',
+    src: require('../Images/tech-stack/ts-logo-256 1.png'),
+    alt: 'logo TypeScript',
   },
   {
     title: 'Github',
