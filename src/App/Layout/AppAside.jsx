@@ -6,6 +6,11 @@ import { PersonalCardIcon } from '../Components/Icons/PersonalCardIcon';
 import { EditIcon } from '../Components/Icons/EditIcon';
 import { CalendarIcon } from '../Components/Icons/CalendarIcon';
 import { ElementIcon } from '../Components/Icons/ElementIcon';
+import { NoteIcon } from '../Components/Icons/NoteIcon';
+import { GameIcon } from '../Components/Icons/GameIcon';
+import { Game2Icon } from '../Components/Icons/Game2Icon';
+import { TechStack } from '../Components/Icons/TechStack';
+import { Faq } from '../Components/Icons/Faq';
 
 export function AppAside() {
   return (
@@ -48,7 +53,7 @@ export function AppAside() {
           <li>
             <NavLink to="FAQ">
               <div className="aside-row">
-                <ElementIcon />
+                <Faq />
                 FAQ
               </div>
             </NavLink>
@@ -56,7 +61,7 @@ export function AppAside() {
           <li>
             <NavLink to="TechStack">
               <div className="aside-row">
-                <ElementIcon />
+                <TechStack />
                 TechStack
               </div>
             </NavLink>
@@ -64,7 +69,7 @@ export function AppAside() {
           <li>
             <NavLink to="exercises/js/hit-the-mole">
               <div className="aside-row">
-                <ElementIcon />
+                <GameIcon />
                 Gra | Krecik
               </div>
             </NavLink>
@@ -72,7 +77,7 @@ export function AppAside() {
           <li>
             <NavLink to="exercises/js/MemoGame">
               <div className="aside-row">
-                <ElementIcon />
+                <Game2Icon />
                 Gra | Memo
               </div>
             </NavLink>
@@ -80,7 +85,7 @@ export function AppAside() {
           <li>
             <NavLink to="exercises/react/Forms2">
               <div className="aside-row">
-                <ElementIcon />
+                <NoteIcon />
                 Formularz
               </div>
             </NavLink>

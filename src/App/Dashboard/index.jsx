@@ -6,7 +6,10 @@ import { ElementIcon } from '../Components/Icons/ElementIcon';
 import { SettingIcon } from '../Components/Icons/SettingIcon';
 import { PersonalCardIcon } from '../Components/Icons/PersonalCardIcon';
 import photo from '../Images/MG_CV.png';
+import { NoteIcon } from '../Components/Icons/NoteIcon';
 import { RoundImage } from '../Components/RoundImage/RoundImage';
+import{TechStack} from '../Components/Icons/TechStack';
+import {Faq} from '../Components/Icons/Faq';
 
 export const Dashboard = () => {
   const kafelki = [
@@ -19,21 +22,20 @@ export const Dashboard = () => {
       title: 'Ćwiczenia',
       logo: <EditIcon />,
       opis: 'wszystkie wykonane ćwiczenia',
-      
     },
     {
       title: 'Formularz',
-      logo: <ElementIcon />,
+      logo: <NoteIcon />,
       opis: 'formularz zamówień',
     },
     {
       title: 'Tech stack',
-      logo: <SettingIcon />,
+      logo: <TechStack />,
       opis: 'stack technologiczny realizowany na kursie',
     },
     {
       title: 'FAQ',
-      logo: <PersonalCardIcon />,
+      logo: <Faq />,
       opis: 'odpowiedzi na najczęstsze pytania',
     },
   ];
@@ -51,7 +53,6 @@ export const Dashboard = () => {
               title={kafelek.title}
               logo={kafelek.logo}
               opis={kafelek.opis}
-              
             />
           );
         })}
